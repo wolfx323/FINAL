@@ -1,0 +1,200 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+
+
+
+
+
+html {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 10px;
+	color: black;
+}
+
+body {
+	background-image: url(../img/backgroundnoiseextend.jpg);
+	}
+
+
+nav	{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	border-bottom: 1px solid #F2F2F2;
+	background: #F9F9F9;
+	padding: 0% 5%;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 8pt;
+
+}
+
+ul {
+	margin: 0;
+	padding: .3em;
+	
+}
+
+li {
+	float: left;
+	margin-right: 15px;
+}
+
+nav li a {
+	display: block;
+	background-color: #F9F9F9;
+	border: 1px solid #F9F9F9;
+	padding: 1em;
+}
+
+nav li a:hover {
+	background-color: black;
+	color: white;
+	text-decoration: none;
+}
+
+nav li ul {
+	display: none;
+	position: absolute;
+	padding: 0px;
+}
+
+nav li:hover ul {
+	display: block;
+}
+
+nav li li {
+	float: none;
+	border: 0;
+	border-bottom: 1px solid #F2F2F2;
+}
+
+a:link {
+	background-color: #F9F9F9;
+	color: black;
+	text-decoration: none;
+	}
+
+a:hover {
+	background-color: black;
+	color: white;
+	text-decoration: none;
+	}
+
+a:visited {
+	background-color: #F9F9F9;
+	color: black;
+	text-decoration: none;
+	}
+
+a:active {
+	background-color: #F9F9F9;
+	color: black;
+	text-decoration: none;
+	}
+
+p {
+	text-align: center;
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5px;
+	font-family: Helvetica, Arial, sans-serif;
+	}
+
+#title {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+	margin-bottom: 75px;
+	}
+
+
+footer {
+	margin-top: 15px;
+	padding-bottom: 5px;
+	position: relative;
+	top: 0px;
+	bottom: 0px;
+	text-align: center;
+	clear: both;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+#Trace1 {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 25px;
+	margin-bottom:25px;
+	}
+
+#Trace2 {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 25px;
+	margin-bottom:25px;
+	}
+
+#Trace3 {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 25px;
+	margin-bottom:25px;
+	}
+
